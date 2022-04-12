@@ -1,0 +1,105 @@
+
+
+.a{
+    border-radius: 30px;
+    
+    color:rgba(255, 143, 107, 1);
+    background-color:rgba(255, 143, 107, 0.1);
+    border:none;
+    padding: 5px 19px;
+
+
+font-size: 16px;
+
+}
+.b{
+    border-radius: 30px;
+     color:rgba(91, 147, 255, 1) ;
+    background-color:rgba(91, 147, 255, 0.1);
+    
+
+    border:none;
+    padding: 5px 19px;
+
+
+font-size: 16px;
+
+}
+
+
+.editdelete{
+    border:none;
+
+}
+.sidebar a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 38px;
+
+border-radius: 20px;
+margin-top: 10px;
+}
+
+.sidebar a:hover{
+
+background-color:#53B9EA;
+text-decoration: none;
+color:white;
+border-radius: 10px;
+
+}
+.sidebar ul li:hover a::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    width: 4px;
+    height: 27px;
+    background: #52b9ea;
+    border: 1px solid #52b9ca;
+    border-radius: 60px;
+  }
+
+.pagination li a{
+    color: black;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.table .table{
+
+     border-collapse: separate;   
+        border-spacing: 0 2rem;   
+        background-color: rgba(247, 248, 251, 1); 
+        border:none;
+        Font-family: Montserrat;
+        Font-style:semibold;
+      Font-size: 16px;
+        
+    }
+    .table tr{
+        
+        background: #FFFFFF;
+box-shadow: 1px 17px 44px rgba(3, 2, 41, 0.07);
+border-radius: 10px;
+
+        
+    }
+    .table>:not(caption)>*>*{
+        border: none !important;
+        
+    }
+    .table > tbody > tr > td {
+        vertical-align: middle;
+   }
+   .table >tbody> tr:hover {
+    background-color: white; 
+    /* transform: scale(1.1); */
+    box-shadow: -6px 2px 23px -15px rgba(3, 2, 41, 0.07);
+
+
+}
+
+
+   
